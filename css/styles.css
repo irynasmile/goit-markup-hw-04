@@ -224,10 +224,11 @@ a.logo {
   margin-left: 30px;
 }
 .advantages-link-link {
-  display: block;
-  text-align: center;
+  /* display: inline-block;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  text-align: center;
+  padding: 25px 100px;
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -280,7 +281,7 @@ a.logo {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.our-team-tittle {
+.our-team-tittle-clients {
   margin-bottom: 50px;
   /* background-color: tomato; */
   font-weight: bold;
@@ -349,6 +350,22 @@ a.social-link-link:focus {
 .social-link-link:focus .social-link-icon {
   fill: var(--white-color);
 }
+/*========= our clients =========*/
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-link-link {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+}
+
 /*========= footer =========*/
 footer {
   background: #2f303a;
