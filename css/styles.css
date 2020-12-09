@@ -126,20 +126,30 @@ a.logo {
   letter-spacing: 0.02em;
   color: #757575;
 }
-.footer-icon {
-  fill: #757575;
-}
-/* .footer-icon:hover,
+.footer-icon:hover,
 .footer-icon:focus {
   fill: var(--accent-color);
+}
+.footer-icon {
+  fill: #757575;
+  width: 16px;
+  height: 12px;
+}
+/* .social-link-link:hover .social-link-icon,
+.social-link-link:focus .social-link-icon {
+  fill: var(--white-color);
 } */
-.address-contact-link:hover .footer-icon,
-.address-contact-link:focus .footer-icon {
+.contact-link:focus .address-icon {
   fill: var(--accent-color);
 }
 .address-contact-link:hover,
 .address-contact-link:focus {
   color: var(--accent-color);
+}
+a.address-contact-link {
+  display: flex;
+  flex-direction: row-reverse;
+  align-content: space-between;
 }
 /* .address-contact-item:not(:last-child) {
   margin-right: 50px;
@@ -162,12 +172,12 @@ a.logo {
   background: #2f303a;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
+      rgba(47, 48, 58, 0.4) /* background: rgba(47, 48, 58, 0.4); */
     ),
     url("images/jpj.effective.solution.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   margin-right: auto;
   margin-left: auto;
@@ -220,6 +230,18 @@ a.logo {
 .advantages-item {
   width: 270px;
 }
+/* .advantages-item::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-image: url("./images.svg/sprite.svg#clock");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px; 
+}*/
 .advantages-item + .advantages-item {
   margin-left: 30px;
 }
@@ -343,6 +365,10 @@ a.social-link-link:focus {
 }
 .social-link-icon {
   fill: #afb1b8;
+}
+.social-link-icon:hover,
+.social-link-icon:focus {
+  fill: #ffffff;
 }
 .social-link-link:hover .social-link-icon,
 .social-link-link:focus .social-link-icon {
