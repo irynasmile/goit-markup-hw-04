@@ -167,14 +167,11 @@ a.logo {
     url("images/jpj.effective.solution.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 50% 50%;
   width: 1600px;
   height: 600px;
-
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
-  display: flex;
-  /* align-items: center; */
-  justify-content: center;
   padding-bottom: 200px;
   padding-top: 200px;
 }
