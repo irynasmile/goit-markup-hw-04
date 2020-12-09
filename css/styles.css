@@ -74,7 +74,7 @@ a.logo {
   align-items: center;
   display: flex;
   color: #000000;
-  margin-right: auto;
+  margin-right: 93px;
 }
 .logo-Studio {
   font-family: var(--secondary-fond);
@@ -89,6 +89,7 @@ a.logo {
 
 .navigation-list {
   display: flex;
+  margin-right: 305px;
 }
 .navigation-list > li:not(:last-child) {
   margin-right: 50px;
@@ -112,9 +113,9 @@ a.logo {
 .navigation-link.is-current {
   color: var(--accent-color);
 }
-.addres {
+/* .addres {
   margin-left: auto;
-}
+} */
 .address-list {
   display: flex;
 }
@@ -154,7 +155,7 @@ a.logo {
 }
 .address-contact-item + .address-contact-item {
   /* background-color: black; */
-  margin-left: 50px;
+  margin-left: 30px;
 }
 /*=========  main  =========*/
 
