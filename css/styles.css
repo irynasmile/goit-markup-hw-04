@@ -132,24 +132,15 @@ a.logo {
 }
 .footer-icon {
   fill: #757575;
-  width: 16px;
-  height: 12px;
 }
-/* .social-link-link:hover .social-link-icon,
-.social-link-link:focus .social-link-icon {
-  fill: var(--white-color);
-} */
-.contact-link:focus .address-icon {
+
+.address-contact-item:hover .footer-icon,
+.address-contact-item:focus .footer-icon {
   fill: var(--accent-color);
 }
 .address-contact-link:hover,
 .address-contact-link:focus {
   color: var(--accent-color);
-}
-a.address-contact-link {
-  display: flex;
-  flex-direction: row-reverse;
-  align-content: space-between;
 }
 /* .address-contact-item:not(:last-child) {
   margin-right: 50px;
