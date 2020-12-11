@@ -157,6 +157,16 @@ a.logo {
   /* background-color: black; */
   margin-left: 30px;
 }
+.social-links .link {
+  color: teal;
+}
+
+/* Два и более селекторов разделяются запятой */
+.link:hover,
+.link:focus {
+  color: orange;
+  outline: teal;
+}
 /*=========  main  =========*/
 
 /*========= hero =========*/
@@ -454,7 +464,7 @@ ul.footer-address > li:not(:last-child) {
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-joinus {
-  font-family: Roboto;
+  font-family: var(--main-fond);
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
@@ -548,11 +558,11 @@ li.projects-list-item {
 /* li.projects-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
  */
-li.projects-list-item:hover,
-li.projects-list-item:focus _ {
+.projects-list-item a:focus,
+.projects-list-item a:hover {
+  outline: none;
   background: #c4c4c4;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
 }
 
 .projects-list-foto {
