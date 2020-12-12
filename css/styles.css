@@ -153,19 +153,19 @@ a.logo {
 .address-contact-link {
   margin-left: 10px;
 }
+.address-contact-link::before {
+  /* margin-right: 16px; */
+  display: block;
+  content: "";
+  width: 16px;
+  height: 12px;
+
+  background-image: url("../images-svg/sprite.svg#envelope");
+  /* fill: red; */
+}
 .address-contact-item + .address-contact-item {
   /* background-color: black; */
   margin-left: 30px;
-}
-.social-links .link {
-  color: teal;
-}
-
-/* Два и более селекторов разделяются запятой */
-.link:hover,
-.link:focus {
-  color: orange;
-  outline: teal;
 }
 /*=========  main  =========*/
 
@@ -247,7 +247,7 @@ a.logo {
 .advantages-item + .advantages-item {
   margin-left: 30px;
 }
-.advantages-link-link {
+.advantages-visuall {
   display: flex;
   justify-content: center;
   align-items: center;
