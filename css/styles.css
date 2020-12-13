@@ -498,6 +498,7 @@ ul.footer-address > li:not(:last-child) {
   text-align: left;
   color: #ffffff;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .social-link-icon.footer {
   fill: #ffffff;
